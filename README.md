@@ -10,4 +10,4 @@ other repositors
 
 [Zenithproxy addon repository](https://github.com/Kitywiel/2b2t.market.zenithproxy)
 
-[issues repository](https://github.com/Kitywiel/2b2t.market.Issues
+[issues repository](https://github.com/Kitywiel/2b2t.market.Issues)
