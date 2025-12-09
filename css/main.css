@@ -1,0 +1,91 @@
+/* CSS Document */
+/* Colors */
+:root {
+  --card-bacground-color: #16213e;
+  --card-color: #e8cb11;
+  --test-4: #e8cb1169;
+  --test-1: #124b65;
+  --test-2: #0fc5e4;
+  --test-3: gray;
+  --text-color: aliceblue;
+}
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+ min-height: 100vh;
+ background-color: #12121b;
+}
+/* ===== HEADER NAVIGATION ===== */
+
+/* ===== TOP SELLER HEADER ===== */
+
+/* ===== CATEGORY BUTTONS ===== */
+.category{
+  margin-bottom: 20px;
+}
+.category-buttons {
+  background-color: var(--card-bacground-color);
+  border-color: #e8cb1169;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  color: var(--text-color);
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+  margin: 5px;
+}
+.category-buttons:hover {
+  background-color: var(--card-color);
+  color: var(--card-bacground-color);
+  cursor: pointer;
+  border-color:  none;
+}
+
+/*===== SELLER CARDS =====*/
+.top-seller-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.seller-card {
+  background-color: var(--card-bacground-color);
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  border: var(--test-4) solid 2px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+.seller-card:hover {
+  border-color: var(--card-color);
+  box-shadow: 0  0 12px var(--card-color);
+}
+
+.seller-card-h1 {
+  color: var(--card-color);
+}
+.seller-card-top-h3, .seller-card-h4 {
+  padding: 5px 10px;
+  background-color: var(--test-1);
+  color: var(--test-2);
+  width: fit-content;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+.seller-card {
+  width: 400px;
+}
+}
