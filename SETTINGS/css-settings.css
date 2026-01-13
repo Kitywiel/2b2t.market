@@ -1,0 +1,35 @@
+:root {
+  /* colors */
+
+  /* body */
+  --background-color: #363636;
+
+  /* header */
+  --header-color: #1f1f1f;
+  --header-shadow-color: #000055;
+  --header-text-color: #ffffff;
+  --header-button-color: #707070;
+  --header-button-hover-color: #505050;
+
+  /* login popup */
+  --login-popup-background-color: #000000cc;
+  --login-popup-text-color: #ffffff;
+  --login-popup-button-color: #ffffff;
+  --login-popup-shadow-color: #000055;
+
+  /* top sellers */
+  --top-seller-background-color: var(--header-color);
+  --top-seller-text-color: #bebebe;
+  --top-seller-card-border-color: #333300;
+  --top-seller-card-shadow-color: var(--top-seller-card-border-color);
+  --top-seller-card-border-hover-color: #b3b300;
+  --top-seller-card-shadow-hover-color: var(--top-seller-card-border-hover-color);
+
+  /* values */
+
+  /* login popup */
+  --login-popup-shadow-posistion: 0 0 20px;
+  /* top sellers */
+  --top-seller-shadow-posistion: 0 0 5px;
+  --top-seller-shadow-hover-posistion: 0 0 10px; 
+}

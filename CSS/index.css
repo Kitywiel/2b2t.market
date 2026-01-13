@@ -1,0 +1,57 @@
+@import url('../SETTINGS/css-settings.css');
+
+#popupDiv {
+opacity: 0;
+visibility: hidden;
+pointer-events: none;
+
+position: fixed;
+inset: 0;
+
+height: 400px;
+width: 250px;
+
+transition: all 0.3s ease;
+color: var(--login-popup-text-color);
+background-color: var(--login-popup-background-color);
+box-shadow: var(--login-popup-shadow-posistion) var(--login-popup-shadow-color);
+
+justify-self: center;
+align-self: center;
+align-items: center;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+#popupDiv.open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+/* top sellers */
+.top-seller > p {
+  font-size: xx-large;
+  text-align: center;
+  background-color: var(--top-seller-background-color);
+  margin: 50px 20px 0 20px;
+  color: var(--top-seller-text-color);
+}
+#topSellers {
+  display: flex;
+  background-color: var(--top-seller-background-color);
+  color: var(--top-seller-text-color);
+  margin: 0 20px 0 20px;
+}
+
+#topSellers div {
+  border: 1px solid var(--top-seller-card-border-color);
+  padding: 10px;
+  margin: 20px;
+  box-shadow: var(--top-seller-shadow-posistion) var(--top-seller-card-shadow-color);
+  border-radius: 10px;
+}
+#topSellers div:hover {
+  box-shadow: var(--top-seller-shadow-hover-posistion) var(--top-seller-card-shadow-hover-color);
+  border: 1px solid var(--top-seller-card-border-hover-color);
+}

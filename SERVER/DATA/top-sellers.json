@@ -1,0 +1,40 @@
+{
+  "topSellers": [
+    {
+      "id": 1,
+      "name": "Kino's Stacked Boots Unstacked",
+      "badge": "Dub",
+      "category": "Gear & Armor",
+      "description": "Protection IV, Unbreaking III, Mending I, diamond boots.",
+      "price": 8,
+      "seller": "Stolen"
+    },
+    {
+      "id": 2,
+      "name": "Full Netherite Armor Set",
+      "badge": "Kit",
+      "category": "Kits",
+      "description": "Full netherite armor with Protection IV, Unbreaking III, Mending.",
+      "price": 25,
+      "seller": "BlockMaster"
+    },
+    {
+      "id": 3,
+      "name": "God Apple Stack",
+      "badge": "Stack",
+      "category": "Consumables",
+      "description": "64 enchanted golden apples for ultimate survival.",
+      "price": 15,
+      "seller": "GoldenTrader"
+    },
+    {
+      "id": 4,
+      "name": "Shulker Box of Totems",
+      "badge": "Shulker",
+      "category": "Consumables",
+      "description": "Shulker box filled with totems of undying.",
+      "price": 50,
+      "seller": "TotemKing"
+    }
+  ]
+}

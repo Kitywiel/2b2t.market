@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/mainstyles.css">
+  <link rel="stylesheet" href="./CSS/index.css">
+  <link rel="shortcut icon" href="./IMG/" type="image/x-icon">
+  <title>2b2t.Markets</title>
+</head>
+<body>
+  <header>
+    <h1>2B2T.markets</h1>
+    <button onclick="openpopup()">Login</button>
+  </header>
+  <main>
+    
+    <div class="top-seller">
+      <P>Top Sellers</P>
+      <div id="topSellers"></div>
+    </div>
+    <div id="popupDiv">
+      <div class="popup-inner">
+        <h1>Login</h1>
+        <form action="">
+          <input type="text" placeholder="Username" required> <br>
+          <input type="password" placeholder="Password" required> <br>
+          <button type="submit">Submit</button>
+        </form>
+      </div>  
+      <button id="closePopup" onclick="closepopup()">close</button>
+    </div>
+  </main>
+  <footer>
+    <p>© 2024 2b2t.markets</p>
+  </footer>
+  <script src="./JS/LoginPopup.js"></script>
+  <script src="./JS/topsellers.js"></script>
+</body>
+</html>

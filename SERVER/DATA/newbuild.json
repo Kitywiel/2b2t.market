@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "username": "Kitywiel",
+      "rank": "developer",
+      "verified_seller": true,
+      "seller_rating": 4.9,
+      "total_sales": 150,
+      "join_date": "2023-11-20",
+      "last_active": "2024-06-20",
+      "contact_info": {
+        "email": "kitiwiel@example.com",
+        "discord": "kitywiel#1234",
+        "website": false
+      },
+      "bio": "Passionate Minecraft trader and developer.",
+      "location": "Netherlands",
+      "languages_spoken": ["English", "Dutch"],
+      "payment_methods": ["PayPal", "Bitcoin", "Ethereum"],
+      "shipping_options": ["In-game delivery"],
+      "policies": {
+        "shipping_policy": "In-game delivery within 24 hours."
+      },
+      "social_media": {
+        "twitter": "https://twitter.com/kitywiel",
+        "instagram": "https://instagram.com/kitywiel"
+      }, 
+      "achievements": ["Top Seller June 2024", "100 Sales Milestone"],
+      "reviews": [
+        {
+          "reviewer": "BlockMaster",
+          "rating": 5,
+          "comment": "Great seller! Fast delivery and item as described.",
+          "date": "2024-06-18"
+        },
+        {
+          "reviewer": "GoldenTrader",
+          "rating": 4.8,
+          "comment": "Very reliable, will trade again.",
+          "date": "2024-06-19"
+        }
+      ],
+      "favorites": ["Full Netherite Armor Set", "God Apple Stack"],
+      "watchlist": ["Shulker Box of Totems"],
+      "settings" : {
+          "theme": "dark",
+          "language": "en-US",
+          "notifications": {
+            "new_messages": true,
+            "item_sold": true,
+            "promotions": false
+          },
+          "privacy": {
+            "profile_visibility": "public",
+            "show_online_status": true
+          },
+          "security": {
+            "two_factor_authentication": true,
+            "login_alerts": true
+          },
+          "data_export": false,
+          "api_keys": ["abcd1234efgh5678ijkl9012mnop3456"],
+          "customization": {
+            "theme": "dark",
+            "layout": "grid"
+          },
+          "referral_code": "KWREF2024",
+          "affiliate_program": {
+            "joined": true,
+            "earnings": 25.75
+          }
+      },
+      "support_tickets": [
+        {
+          "ticket_id": "TICK123456",
+          "subject": "Issue with recent purchase",
+          "status": "Resolved",
+          "date_opened": "2024-06-10",
+          "date_closed": "2024-06-12",
+          "messages": [
+            {
+              "from": "kitywiel",
+              "message": "I received the wrong item in my last purchase.",
+              "date": "2024-06-10"
+            },
+            {
+              "from": "SupportTeam",
+              "message": "We apologize for the inconvenience. We will send you the correct item immediately.",
+              "date": "2024-06-11"
+            }
+          ]
+        }
+      ],
+      "activity_log": [
+        {
+          "action": "Listed item for sale",
+          "item": "blocks Of Resin",
+          "date": "2024-06-15"
+        },
+        {
+          "action": "Sold item",
+          "item": "blocks Of Resin",
+          "date": "2024-06-18"
+        }
+      ],
+      "premium_membership": {
+        "is_premium": true,
+        "expiry_date": "2025-06-15",
+        "benefits": ["Lower fees", "Priority support", "Exclusive items"]
+      },
+      "items_for_sale": [
+        {
+          "id": 101,
+          "name": "Blocks Of Resin",
+          "badge": "Bulk",
+          "category": "Building Materials",
+          "description": "A large quantity of resin blocks for all your building needs.",
+          "price": 12,
+          "stock": 200,
+          "date_listed": "2024-06-15",
+          "sales": 50,
+          "ratings": 4.7,
+          "reviews": [
+            {
+              "reviewer": "BuilderBob",
+              "rating": 5,
+              "comment": "Excellent quality resin blocks, perfect for my builds!",
+              "date": "2024-06-16"
+            },
+            {
+              "reviewer": "CraftyCathy",
+              "rating": 4.5,
+              "comment": "Good value for the price, will buy again.",
+              "date": "2024-06-17"
+            }
+          ],
+          "images": [
+            "resin_block_1.png",
+            "resin_block_2.png"
+          ],
+          "tags": ["resin", "building", "bulk"],
+          "shipping_options": ["In-game delivery"],
+          "payment_methods": ["PayPal", "Bitcoin"]
+        }
+      ]
+    }
+  ]
+}
