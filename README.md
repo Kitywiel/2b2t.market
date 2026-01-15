@@ -1,6 +1,6 @@
 # 2b2t.market
 
-## 2b2t.market main repository
+## 2b2t.market web repository
 
 other repositors
 
